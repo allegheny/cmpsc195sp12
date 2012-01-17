@@ -1,0 +1,8 @@
+  <h5>Recent Posts</h5>
+  <ul id="recent_posts">
+    {% for post in site.posts limit: site.recent_posts %}
+      <li class="post">
+        <a href="{{ post.url | remove_first: '/' | prepend:site.url | replace:' ','' }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>

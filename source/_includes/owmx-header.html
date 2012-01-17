@@ -1,0 +1,7 @@
+<header>
+	<a href="{{site.url}}" title="Go to Homepage">
+		<div style="font-size: 64px;"><strong>{{site.title}}</strong></div>
+		<div style="float:right;">{{site.subtitle}}</div>
+	</a>
+<p>{% if page.pithy %} {{page.pithy}} {% else %} {{site.pithy}} {% endif %}</p>
+</header>

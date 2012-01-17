@@ -1,0 +1,38 @@
+{% capture root_url %} {{ site.root | strip_slash }} {% endcapture %}
+
+{% include head.html %}
+
+{% include header.html %}
+<body>
+
+
+	<div class="container-fluid">
+
+		{% include sidebar.html %}
+
+		<div class="content">
+			{% if page.callout %}
+			<div class="hero-unit">	
+				<h1>{{ page.title }} </h1>
+			</div>
+			{% endif %}
+
+			{{ content | expand_urls: root_url }}
+			{% assign index = true %}
+			{% for post in paginator.posts %}
+			{% assign content = post.content %}
+			<article>
+			<p>HA HA HA</p>
+			{% include article.html %}
+			</article>
+			{% endfor %}
+
+			{% include bottomjs.html %}  
+
+			<!-- footer.html : closes off containers. -->
+			{% include footer.html %}
+			<!-- end footer.html -->
+
+		</body>
+
+		{% include foot.html %}

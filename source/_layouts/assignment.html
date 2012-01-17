@@ -1,0 +1,34 @@
+{% capture root_url %} {{ site.root | strip_slash }} {% endcapture %}
+
+{% include head.html %}
+
+{% include header.html %}
+<body>
+
+
+	<div class="container-fluid">
+
+		{% include sidebar.html %}
+
+		<div class="content">
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			{% if page.callout %}
+			<div class="hero-unit">	
+				<h1>{{ page.callout }} </h1>
+				<br/>
+				<p><strong>Assigned: </strong> {{ page.assigned }}</p>
+				<p><strong>Due: </strong> {{ page.due }}</p>
+			</div>
+			{% endif %}
+
+			{{ content | expand_urls: root_url }}
+
+			{% include bottomjs.html %}  
+
+			<!-- footer.html : closes off containers. -->
+			{% include footer.html %}
+			<!-- end footer.html -->
+
+		</body>
+
+		{% include foot.html %}

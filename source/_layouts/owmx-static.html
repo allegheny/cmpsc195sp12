@@ -1,0 +1,23 @@
+{% capture root_url %} {{ site.root | strip_slash }} {% endcapture %}
+
+{% include owmx-head.html %}
+<body>
+	<div id="a">
+		{% include owmx-header.html %}
+		<div id="b">
+			{% include owmx-sidebar.html %}
+
+			<article>
+			{{ content | expand_urls: root_url }}
+			</article>
+
+			{% include owmx-bottomjs.html %}  
+
+			<!-- footer.html : closes off containers. -->
+			{% include owmx-footer.html %}
+			<!-- end footer.html -->
+		</div>
+	</div>
+</body>
+
+{% include owmx-foot.html %}

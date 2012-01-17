@@ -1,0 +1,49 @@
+---
+layout: owmx
+pithy: One... two...
+---
+
+{% assign index = true %}
+
+  {% for post in paginator.posts %}
+<article>
+{% unless page.no_header %}
+    {% if index %}
+		<h1>
+			
+				{% if site.titlecase %}
+					{{ post.title | titlecase }}
+				{% else %}
+					{{ post.title }}
+				{% endif %}
+		</h1>
+    {% else %}
+		<h1 class="entry-title">
+		{% if site.titlecase %}
+			{{ page.title | titlecase }}
+		{% else %}
+			{{ page.title }}
+		{% endif %}
+		</h1>
+    {% endif %}
+
+	{{ post.content }}
+	
+	<hr/>
+	
+    {% unless page.meta == false %}
+      {% include post/owmx-date.html %}
+		{% capture commentstxt %}
+		{% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
+         | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+        {% endif %}
+		{% endcapture %}
+      <p class="meta">
+		<a href="{{ root_url }}{{ post.url }}">permalink</a> | {{ simpletime }} {{ commentstxt }}
+      </p>
+    {% endunless %}
+
+{% endunless %}
+
+</article>
+  {% endfor %}
