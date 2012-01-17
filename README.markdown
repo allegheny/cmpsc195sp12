@@ -1,3 +1,9 @@
+## CMPSC 195 Sp 12 Website
+
+The CMPSC195sp12 website is based on Octopress. I have hacked it up a fair bit, but am hoping that it will allow me to reuse more content from one semester to the next, as well as share the work that I'm doing with others.
+
+Please note that while content may be placed into the Creative Commons, some of the other aspects of this project carry their own licenses---for example, Octopress scripts carry an MIT license, the template a BY-SA, and the header graphic BY-SA as well. 
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
@@ -12,12 +18,6 @@ Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 ## Documentation
 
 Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
-
-
-## Contributing
-
-We love to see people contributing to Octopress, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic blogging needs, so some of your suggestions might not find their way into Octopress. For those ideas, we started a [list of 3rd party plug-ins](https://github.com/imathis/octopress/wiki/3rd-party-plug-ins), where you can link your own Octopress plug-in repositories. For the future, we're thinking about ways to easier add them them into our main releases.
-
 
 ## License
 (The MIT License)
