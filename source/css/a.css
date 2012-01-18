@@ -216,9 +216,6 @@ table {
 	tr:nth-child(even) {
 		background : #DDD;
 		}
-	tr:hover td {
-		color : #0098CC;
-		}
 	td, th {
 		min-width : 120px;
 		padding : 0 5px;
