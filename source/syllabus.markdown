@@ -11,11 +11,11 @@ categories: [static, administrivia]
 
 # Contact
 
-The course mailing list, <a href="mailto:compilers@rockalypse.org">compilers@rockalypse.org</a> should be your first stop for questions. If you have a question, it is likely someone else either 1) would benefit from the answer or 2) might be able to answer it before I can. For all course-related questions, please use the list.
+You're encouraged to ask questions. (In that regard, we also recommend you keep a notebook where you record your questions and the answers you get. This is a critical part of learning: identifying what you don't know, and recording the answers you find as you go.) 
 
-Obviously, direct email is fine for things that don't seem appropriate for the list.
+We will be using Piazza for all of our Q&A. [Bookmark our course discussion forum](http://piazza.com/class#spring2012/cmpsc195)! We like Piazza because it lets you help each-other, it is easily searchable, and it tracks how long it takes us to answer questions!
 
-You're welcome to give a call as well. The phone routes to voicemail after 9PM, but your voicemail will be emailed to me.
+If you have a question that isn't exactly suitable for public consumption, feel free to drop Matt an email, and if something comes up that is pressing, you're welcome to give a call as well. The phone routes to voicemail after 9PM (meaning you probably can't wake me up), but your voicemail will be emailed to me. If I'm up, I'll get it and (possibly) get back to you right away.
 
  | 
 -- | :--
@@ -27,68 +27,73 @@ I pay for SMS messages. If you send a text, you will be charged $0.25.
 {% endcallout %}
 
 # Course Textbook
-{% img right images/book-cover.jpg 120 %}
+{% img right images/learning-processing.jpg 120 %}
 
 We have one required text this semester. You should buy it, because we're going to read it, and use it, and stuff like that.
 
-[The Elements of Computing Systems: Building a Modern Computer from First Principles](http://www1.idc.ac.il/tecs/)
+[Learning Processing](http://www.learningprocessing.com/buy-the-book/)
+
+We will have some additional readings that will be posted to Sakai as we go. We'll let you know about those as they come up.
 
 # Software
-Likewise, we'll be using a few pieces of software this term.
-
-* [ [The TECS Software Suite](http://www1.idc.ac.il/tecs/software.html) ] This is the software that is coupled with the book. If you want to be able to work on projects on your own computer, you should install this and get it working before we dive into things.
-* [ [Racket](http://racket-lang.org) ] This is a free and open implementation of the Racket programming language. It looks a lot like Scheme. (When it comes to writing a compiler, we'll deviate from the course text and do our work in Racket.)
+We will be using [Processing](http://processing.org) throughout the semester. We recommend you download and install it on your own computer.
 
 # Outcomes
 
-1. Construct a functioning CPU as described in **EoCS**, and write software in microcode and assembly to drive said CPU.
-1. Implement a front-to-back, [nano-pass compiler](http://dl.acm.org/citation.cfm?doid=1016850.1016878) for a variant of the Hack programming language.
-1. Extend, invent, or otherwise awesomeize something explored during the course of the semester as part of an independent or small-group project.
+* One
+* Two
+* Three
 
-# Weekly Peer Assessment
+# Assessment
 
-Every Thursday we will pair off and discuss the work of the week with each-other. Interactively, you will quiz each-other, exploring how well your partner understands the material---and, in doing so, exploring how well *you* understand the material. A critical outcome of this process is the generation of questions that you still have at the end of the week, which you will share back with the rest of the class.
+ | 
+-- | :--
+**Participation** | 10%
+**Peer Assessment** | 10%
+**Prep Quizzes** | 5%
+**Examinations** | 20%
+**Doing Stuff** | 60%
 
-After Q&A and discussion, you will then give your partner a grade for the week:
+What do these mean?
+
+* [**Participation**] We're going to be *engaging* all term. In fact, our goal is to *talk* our way through learning how to manipulate digital media programmatically. So, collaborating with others, asking questions (in-class or online), *answering* questions (in-class or online)... these are all ways you can engage. 
+* [**Peer Assessment**] You will be working with others quite a bit. We will regularly engage in some simple assessments of our collaborators. Why? Because you're supposed to be helping each-other excel; a partner who doesn't engage is not learning everything they should... and neither are you. So, we will be "checking in" on collaborative processes regularly.
+* [**Prep Quizzes**] As we come into each lab (and possibly "non-lab" days as well), we'll have a short quiz to see how you're doing. If you clear 80% on all of the quizzes, you get 100% for this measure. In other words: if you're able to demonstrate you prepared for class, you're good to go. 
+* [**Examinations**] We do need some evaluation that helps us see how you're doing as individuals. These exams should *never* be surprising; they might be challenging, but they should always reflect the kind of learning you've been doing.
+* [**Doing Stuff**] We'll be doing a lot of hands-on work. If that's what we're doing a lot of, then that's what should count for a substantial portion of your grade.
+
+Every assignment and examination will not only have a due date, but also a "feedback date." That means that you will know, for every assignment, when you can expect to receive feedback on your work. At the end of the term, we'll be able to see if Matt gets a "100%" for returning work to you on time.
+
+A few notes/warnings, though:
 
 {% callout red %}
-It is likely that your partner did not spend any substantial time on the course this week. Or, if they did, they failed to ask questions of the group in a timely manner, meaning they failed to get past blocks and develop a deeper understanding. This is considered <strong>Poor</strong>.
+An unexcused Tuesday will cost you a full letter grade. Exceptions will only be made in extreme (and documented) circumstances.
 {% endcallout %}
 
 {% callout yellow %}
-<strong>Average</strong> understanding means they have the gist, but not the depth, of the material from the week.
-{% endcallout %}
-
-{% callout blue %}
-<strong>Good</strong> understanding means they can answer most questions when pressed, but have not developed mastery. They are still confused on some points, but have clearly made an effort to master the material.
+You <em>must</em> come to class prepared. The goal this semester is to 1) minimize lecture and 2) maximize the time we spend discussing and collaborating around the task of learning to write programs that do really cool stuff.
 {% endcallout %}
 
 {% callout green %}
-If they know it cold, that's <strong>Excellent</strong>.
+I want every single one of you to earn an <strong>A</strong>. That said, I suggest you read the article <a href="http://www.forbes.com/sites/artcarden/2012/01/12/dear-student-i-dont-lie-awake-at-night-thinking-of-ways-to-ruin-your-life/">Dear Student: I don't lie awake at night thinking of ways to ruin your life</a>.
 {% endcallout %}
-
-The purpose of this is three-fold:
-
-1. **Learning**. You yourself will need to work hard and ask questions to understand the material before coming to class. The peer assessment is a checkpoint on your own learning.
-1. **Accountability**. In a small seminar, *we* make the course. Your contribution is the effort you make in mastering the concepts necessary to implement a CPU and compiler.
-1. **Direction**. The questions you come up with will help pace the course as well as guide our next steps.
-
-# Grading
-
-The majority of the credit for the course will come from our work on the assignments (~50%), from our collaboration on our learning in class (~30%), and from exams (~20%). 
 
 # "What is my grade?"
 
-Don't ask. I won't know.
+I am notgoing to tell you.
 
-You are entitled to prompt feedback on any given assignment or exam. If you can't figure out how you're doing based on that feedback, I can't help you.
+"But why?," you ask. 
 
-If I think you're doing poorly, I will let you know, through personal conversation and/or APRs. I will let you know because *I want you to excel*.
+"It's simple," I say.
 
-But I'm tired of people asking what their grade is. It's game-theoretic, and has almost nothing to do with *learning*.
+You're an adult. You'll get feedback on each assignment you do. **You** can calculate your grade. That's **your** job. It is **not** my job to keep a running total for everyone in the course, and produce that number on-demand at any given time.
+
+I'll let you know where you stand before the add/drop period ends. If you're doing poorly, I'll send an APR. Other than that, if it is important to know what your grade is at every minute of the semester, *you can figure it out yourself.*
 
 # (Meta) Background Reading
 
-* [Taming Complexity in Large Scale Systems Projects](http://shimonschocken.com/wp-content/uploads/2011/10/Taming-Complexity.pdf), written by the second author of our text, is going to be presented in the spring, and it provides some background to the tools and technologies you'll be working with, as well as the history of the book.
+If you're interested in knowing some of the education-theoretic inspirations for this course's design, feel free to check some of these links out.
+
 * [Confessions of a Converted Lecturer](http://www.youtube.com/watch?v=WwslBPj8GgI) is a talk by Erik Mazur that captures many (data-driven) reasons that this course will focus on collaboration and interaction as opposed to lecture.
+* [Taming Complexity in Large Scale Systems Projects](http://www.cs.berkeley.edu/~clancy/ucwise/fecs07_lab_centric_2col.pdf), written by Mike Clancy at UC Berkeley, describes some of the philosophy behind the instructional approach we are employing this semester. (Think of this as some of what guides our design of CMPSC 195.)
 
