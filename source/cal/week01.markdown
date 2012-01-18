@@ -10,6 +10,9 @@ pithy: A short week.
 categories: [static, calendar]
 ---
 
+# Big Picture
+We'll get to know each-other.
+
 # The Plan
 
 | | | 
@@ -18,8 +21,8 @@ categories: [static, calendar]
   |  | 
 Icebreaker | 20 min | Get to know one-another.
 Prof Yak #1 | 10 min | Highlight one or two things in the syllabus.
-Hand Coding | 20 minutes | Our first picture.
-Prof Yak #2 | 20 minutes | What comes next?
+Hand Coding | 30 minutes | Our first picture.
+Prof Yak #2 | 10 minutes | What comes next?
 | | | 
 
 # Icebreaker
