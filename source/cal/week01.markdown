@@ -20,8 +20,8 @@ We'll get to know each-other.
  **Activity** | **Time** | **Description**
   |  | 
 Icebreaker | 20 min | Get to know one-another.
-Prof Yak #1 | 10 min | Highlight one or two things in the syllabus.
 Hand Coding | 30 minutes | Our first picture.
+Prof Yak #1 | 10 min | Highlight one or two things in the syllabus.
 Prof Yak #2 | 10 minutes | What comes next?
 | | | 
 
@@ -30,13 +30,13 @@ We're going to be spending a lot of time working together. So, my theory is that
 
 *Your community is your number one support network.*
 
-# Prof Yak #1
-
-I'm going to highlight one or two things in the syllabus that I think you'll find are different than what you'd expect. Note, though: it's a short, 10-minute yak, so I'll have to be brief. *That's hard to do.*
-
 # Hand Coding
 
 Instead of fighting with the computer on day one, we'll do an exercise on paper. Most computer scientists spend time working ideas out on paper and/or the whiteboard before they write code---so that's what we're going to do, too.
+
+# Prof Yak #1
+
+I'm going to highlight one or two things in the syllabus that I think you'll find are different than what you'd expect. Note, though: it's a short, 10-minute yak, so I'll have to be brief. *That's hard to do.*
 
 # Prof Yak #2
 

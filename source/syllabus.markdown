@@ -28,8 +28,14 @@ It is unreasonable to expect responses in less than a business day, but we'll se
 **Email** | mjadud@allegheny.edu 
 **Phone** | +1 (925)-238-3692
 
+ | 
+-- | :--
+**Email** | rroos@allegheny.edu
+**Phone** | +1 (814)-332-2883
+
+
 {% callout hotpink %}
-I pay for SMS messages. If you send a text, you will be charged $0.25.
+Matt pays for SMS messages. If you send a text, you will be charged one US quarter.
 {% endcallout %}
 
 # Course Textbook
@@ -46,9 +52,15 @@ We will be using [Processing](http://processing.org) throughout the semester. We
 
 # Outcomes
 
-* One
-* Two
-* Three
+1. Understand a computational approach to describing actions.
+1. Master the Java implementation of the basic building blocks that comprise a program (eg. <code>if</code>, <code>while</code>, and friends).
+1. Recognize and implement/use simple abstractions.
+
+We will ask you to engage in a wide range of activities that help demonstrate that you are achieving these outcomes. A few examples include:
+
+1. Knowing definitions for basic terminology associated with programming (eg. *variable*, *sequence*, *loop*, etc.). Reading and describing what a piece of code does.
+1. Translating English instructions into code, identifying correct and incorrect solutions given a problem statement.
+1. Identifying how variables are used, design exercises (eg. "Zoog" variants), removing duplication of effort from code.
 
 # Assessment
 
@@ -66,7 +78,7 @@ What do these mean?
 {% callout red %}
 An unexcused Tuesday will cost you a full letter grade. Exceptions will only be made in extreme (and documented) circumstances.
 {% endcallout %}
-* [**Peer Assessment**] You will be working with others quite a bit. We will regularly engage in some simple assessments of our collaborators. Why? Because you're supposed to be helping each-other excel; a partner who doesn't engage is not learning everything they should... and neither are you. So, we will be "checking in" on collaborative processes regularly.
+* [**Peer Assessment**] You will be working with others quite a bit. We will regularly engage in some simple assessments of our collaborators. Why? Because you're supposed to be helping each other excel; a partner who doesn't engage is not learning everything they should... and neither are you. So, we will be "checking in" on collaborative processes regularly.
 {% callout yellow %}
 You <em>must</em> come to class prepared. The goal this semester is to 1) minimize lecture and 2) maximize the time we spend discussing and collaborating around the task of learning to write programs that do really cool stuff. That means it is <strong>up to you to prepare yourself to engage actively in class</strong>.
 {% endcallout %}
@@ -78,19 +90,17 @@ Every assignment and examination will not only have a due date, but also a "feed
 
 # "What is my grade?"
 
-I am not going to tell you.
-
-"But why?," you ask. 
-
-"It's simple," I say.
-
-You're an adult. You'll get feedback on each assignment you do. **You** can calculate your grade. That's **your** job. It is **not** my job to keep a running total for everyone in the course, and produce that number on-demand at any given time.
-
-I'll let you know where you stand before the add/drop period ends. If you're doing poorly, I'll send an APR. Other than that, if it is important to know what your grade is at every minute of the semester, *you can figure it out yourself.*
+I'll let you know where you stand before the add/drop period ends. If you're doing poorly, I'll send an APR. Other than that, if it is important to know what your grade is at every minute of the semester, you can figure it out yourself.
 
 {% callout green %}
 I want every single one of you to earn an <strong>A</strong>. That said, I suggest you read the article <a href="http://www.forbes.com/sites/artcarden/2012/01/12/dear-student-i-dont-lie-awake-at-night-thinking-of-ways-to-ruin-your-life/">Dear Student: I don't lie awake at night thinking of ways to ruin your life</a>.
 {% endcallout %}
+
+# Supporting Your Needs
+
+Students with disabilities who believe they may need accommodations in this class are encouraged to contact Student Disability Services (SDS) at (814) 332-2898.  SDS is part of the Learning Commons and is located in Pelletier Library.  Please do this as soon as possible to ensure that such accommodations are implemented in a timely fashion.
+
+In short: we will work with you to the best of our ability to help you be a success in our course.
 
 # (Meta) Background Reading
 

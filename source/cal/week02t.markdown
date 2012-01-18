@@ -16,7 +16,7 @@ Getting into Processing.
 # "To Do"
 * Read chapters one and two.
 * Read the description for our hands-on work of the day.
-* Watch the first minute of [this rally driving team](http://www.youtube.com/watch?v=vCSAa5nOU64).
+* Watch (and listen to) the first minute of [this rally driving team](http://www.youtube.com/watch?v=vCSAa5nOU64).
 * Watch the [pair programming video](http://www.youtube.com/watch?v=rG_U12uqRhE). 
 
 # The Plan
