@@ -11,11 +11,17 @@ categories: [static, administrivia]
 
 # Contact
 
-You're encouraged to ask questions. (In that regard, we also recommend you keep a notebook where you record your questions and the answers you get. This is a critical part of learning: identifying what you don't know, and recording the answers you find as you go.) 
+I want you to ask lots of questions. 
 
-We will be using Piazza for all of our Q&A. [Bookmark our course discussion forum](http://piazza.com/class#spring2012/cmpsc195)! We like Piazza because it lets you help each-other, it is easily searchable, and it tracks how long it takes us to answer questions!
+We will be using Piazza for all of our Q&A. 
 
-If you have a question that isn't exactly suitable for public consumption, feel free to drop Matt an email, and if something comes up that is pressing, you're welcome to give a call as well. The phone routes to voicemail after 9PM (meaning you probably can't wake me up), but your voicemail will be emailed to me. If I'm up, I'll get it and (possibly) get back to you right away.
+[Bookmark our course discussion forum](http://piazza.com/class#spring2012/cmpsc195)! 
+
+I like Piazza because it lets you help each-other, it is easily searchable, and it tracks how long it takes for questions to be answered. (Performance metrics!)
+
+If you have a question that isn't exactly suitable for public consumption, feel free to drop me an email, and if something comes up that is pressing, you're welcome to give a call as well. The phone routes to voicemail after 9PM (meaning you probably can't wake me up), but your voicemail will be emailed to me. If I'm up, I'll get it and (possibly) get back to you right away. 
+
+It is unreasonable to expect responses in less than a business day, but we'll see how we do.
 
  | 
 -- | :--
@@ -49,7 +55,7 @@ We will be using [Processing](http://processing.org) throughout the semester. We
  | 
 -- | :--
 **Participation** | 10%
-**Peer Assessment** | 10%
+**Peer Assessment** | 5%
 **Prep Quizzes** | 5%
 **Examinations** | 20%
 **Doing Stuff** | 60%
@@ -71,7 +77,7 @@ An unexcused Tuesday will cost you a full letter grade. Exceptions will only be 
 {% endcallout %}
 
 {% callout yellow %}
-You <em>must</em> come to class prepared. The goal this semester is to 1) minimize lecture and 2) maximize the time we spend discussing and collaborating around the task of learning to write programs that do really cool stuff.
+You <em>must</em> come to class prepared. The goal this semester is to 1) minimize lecture and 2) maximize the time we spend discussing and collaborating around the task of learning to write programs that do really cool stuff. That means it is <strong>up to you to prepare yourself to engage actively in class</strong>.
 {% endcallout %}
 
 {% callout green %}
@@ -80,7 +86,7 @@ I want every single one of you to earn an <strong>A</strong>. That said, I sugge
 
 # "What is my grade?"
 
-I am notgoing to tell you.
+I am not going to tell you.
 
 "But why?," you ask. 
 
