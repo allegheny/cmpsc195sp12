@@ -1,6 +1,6 @@
 ---
 layout: owmx-static
-title: Week Two
+title: Getting Into Processing
 comments: false
 date: 2012-01-04 03:20
 sharing: true
@@ -8,20 +8,22 @@ footer: true
 callout: true
 pithy: Diving in.
 categories: [static, calendar]
+week: 02
+day: 1
 ---
 
 # Big Picture
 Getting into Processing.
 
 # "To Do"
-* Read chapters one and two.
+* Read chapters one and two of LP.
 * Read the description for our hands-on work of the day.
 * Watch (and listen to) the first minute of [this rally driving team](http://www.youtube.com/watch?v=vCSAa5nOU64).
 * Watch the [pair programming video](http://www.youtube.com/watch?v=rG_U12uqRhE). 
 
 # The Plan
 
-| | | 
+| | 
  :-- | :--: | :--
  **Activity** | **Time** | **Description**
   |  | 
@@ -34,7 +36,7 @@ Break | 5 min | Stretch!
 Hands On #2 | 30 min | Ripping off Mondrian, Part II
 Show & Tell | 30 min | Art Show
 Prof Yak #1 | 20 min | What's comes next?
-| | | 
+| | 
 
 # Quiz
 A short quiz over chapters one, two, and the pair programming video.

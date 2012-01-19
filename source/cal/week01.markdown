@@ -1,6 +1,6 @@
 ---
 layout: owmx-static
-title: Week One
+title: Building Community
 comments: false
 date: 2012-01-04 03:20
 sharing: true
@@ -8,22 +8,24 @@ footer: true
 callout: true
 pithy: A short week.
 categories: [static, calendar]
+week: 01
+day: 2
 ---
 
 # Big Picture
-We'll get to know each-other.
+We'll get to know each other.
 
 # The Plan
 
-| | | 
+| | 
  :-- | :--: | :--
  **Activity** | **Time** | **Description**
   |  | 
 Icebreaker | 20 min | Get to know one-another.
-Hand Coding | 30 minutes | Our first picture.
+Hand Coding | 30 min | Our first picture.
 Prof Yak #1 | 10 min | Highlight one or two things in the syllabus.
-Prof Yak #2 | 10 minutes | What comes next?
-| | | 
+Prof Yak #2 | 10 min | What comes next?
+| | 
 
 # Icebreaker
 We're going to be spending a lot of time working together. So, my theory is that you should take a few minutes to get to know a few of your classmates before we proceed.

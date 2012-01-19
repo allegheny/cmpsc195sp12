@@ -7,7 +7,9 @@ sharing: true
 footer: true
 callout: true
 pithy: Variables.
-categories: [static, calendar]
+categories: [static, calendar, draft]
+week: 03
+day: 1
 ---
 
 # Big Picture
