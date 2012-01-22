@@ -49,7 +49,7 @@ We intend to cover material from the first twelve chapters of [Learning Processi
 	<td> ... </td>
 	{% else %}
 	<td align="left"> 
-	<a href="{{ post.url | replace_first: '/','' | prepend:site.url | replace:' ','' }} ">{{ post.title }}</a>
+	<a href="{{ post.url | prepend:site.url | replace:' ','' }} ">{{ post.title }}</a>
 	</td>
 	{% endif %}
 	

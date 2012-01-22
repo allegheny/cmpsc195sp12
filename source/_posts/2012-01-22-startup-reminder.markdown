@@ -10,7 +10,7 @@ footer: true
 Just a few quick reminders for all of you:
 
 1. The [calendar]({{ site.url | append: "/calendar.html"}}) page provides an overview of everything we're doing this term.
-1. This Tuesday we'll be working through [our first lab]({{ site.url | append: "/labs/20120124-mondrian.html"}}).
+1. This Tuesday we'll be working through [our first lab]({{ site.url | append: "/cal/week02-1.html"}}).
 
 The lab page reminds you of your reading for Tuesday and provides a link to the lab itself. (You should read that before you come in.) 
 
