@@ -8,7 +8,7 @@
 			{% include owmx-sidebar.html %}
 
 			<article>
-			{{ content | expand_urls: root_url }}
+			{{ content | expand_urls: root_url | replace:'%20',''}}
 			</article>
 
 			{% include owmx-bottomjs.html %}  

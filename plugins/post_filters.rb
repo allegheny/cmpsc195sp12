@@ -170,7 +170,8 @@ module Jekyll
     # Returns the full url of the post, including the
     # configured url
     def full_url
-      self.site.config['url'] + self.url
+ 		url = self.site.config['url'] + self.url
+ 		url.gsub(/\s+/, "")
     end
   end
 end

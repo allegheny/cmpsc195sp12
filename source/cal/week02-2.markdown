@@ -21,16 +21,15 @@ What does it mean to study programming?
 
 # The Plan
 
-| | 
+&nbsp; |&nbsp; | &nbsp;
  :-- | :--: | :--
  **Activity** | **Time** | **Description**
-  |  | 
 Quiz | 10 min | Prep quiz.
 Q & A | 20 min | Q & A
 Quaddie | 15 min | Quaddie discuss.
 Summary | 10 min | Highlights
 Sheet | 15 min | A... *worksheet*?
-| |  
+&nbsp;|&nbsp; |  &nbsp;
 
 # Quiz
 A short quiz over the material from *Studying Programming* and the YTL.

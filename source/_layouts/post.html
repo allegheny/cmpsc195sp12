@@ -2,29 +2,25 @@
 layout: owmx-static
 single: true
 ---
-
 <div>
-<article class="hentry" role="article">
-  {% include owmx-article.html %}
-  <footer>
     <p class="meta">
       {% include post/owmx-author.html %}
-      {% include post/owmx-date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/owmx-categories.html %}
     </p>
-    {% unless page.sharing == false %}
-      {% include post/owmx-sharing.html %}
-    {% endunless %}
+    
     <p class="meta">
       {% if page.previous.url %}
-        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+      	{% capture myurl %}
+      	{{page.previous.url | prepend:site.url | replace:' ',''}}
+      	{% endcapture %}
+        <a class="basic-alignment left" href="{{ myurl }}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
       {% if page.next.url %}
-        <a class="basic-alignment right" href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+        <a class="basic-alignment right" href="{{page.next.url | prepend:site.url | replace:' ',''}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
       {% endif %}
     </p>
-  </footer>
-</article>
+    
+    {{ content }}
+
 {% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
@@ -32,12 +28,3 @@ single: true
   </section>
 {% endif %}
 </div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}

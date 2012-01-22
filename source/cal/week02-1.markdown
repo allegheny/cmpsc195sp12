@@ -17,16 +17,16 @@ Getting into Processing.
 
 # "To Do"
 * Read chapters one and two of LP.
-* Read the description for our hands-on work of the day.
+* Read the description for our [work of the day](../labs/20120124-mondrian.html)
 * Watch (and listen to) the first minute of [this rally driving team](http://www.youtube.com/watch?v=vCSAa5nOU64).
 * Watch the [pair programming video](http://www.youtube.com/watch?v=rG_U12uqRhE). 
 
 # The Plan
 
-| | 
- :-- | :--: | :--
+
+&nbsp;|&nbsp;|&nbsp;
+  :-- | :--: | :-- 
  **Activity** | **Time** | **Description**
-  |  | 
 Quiz | 10 min | Our first "prep quiz."
 Eval | 30 min | Answer the quiz questions together.
 Lab Book | 20 min | Review lab books w/ partners.
@@ -36,7 +36,7 @@ Break | 5 min | Stretch!
 Hands On #2 | 30 min | Ripping off Mondrian, Part II
 Show & Tell | 30 min | Art Show
 Prof Yak #1 | 20 min | What's comes next?
-| | 
+&nbsp;|&nbsp;|&nbsp;
 
 # Quiz
 A short quiz over chapters one, two, and the pair programming video.

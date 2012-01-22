@@ -40,7 +40,7 @@ pithy: One... two...
 		{% endcapture %}
       <p class="meta">
 	<!-- {{ root_url }}{{ post.url }} -->
-		<a href="{{ post.url | remove_first: '/' | prepend:site.url | replace:' ','' }}">permalink</a> | {{ simpletime }} {{ commentstxt }}
+		<a href="{{ post.url | prepend:site.url | replace:' ','' }}">permalink</a> | {{ simpletime }} {{ commentstxt }}
       </p>
     {% endunless %}
 

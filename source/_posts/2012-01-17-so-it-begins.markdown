@@ -4,6 +4,9 @@ title: And so it begins...
 date: 2012-01-17 21:23
 comments: true
 categories: 
+date: 2012-01-04 03:20
+sharing: true
+footer: true
 ---
 
 Spring has roared in with... *rain*.

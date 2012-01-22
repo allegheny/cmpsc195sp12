@@ -1,0 +1,125 @@
+---
+layout: owmx-static
+title: Improving Mondrian
+comments: false
+date: 2012-01-04 03:20
+sharing: true
+footer: true
+callout: true
+pithy: Rectangles and rectangles...
+categories: [static, labs]
+week: 01
+---
+
+![Composition II in Red, Blue, and Yellow](mondrian.jpg)
+Piet Mondrian, *Composition II in Red, Blue, and Yellow* (1930)<br/>
+Estimated value: $3,000,000 (based on [comparable works](http://bit.ly/waEZGJ))
+
+<br/>
+
+<br/>
+
+# 10-Line Works of Art
+
+Create three Processing programs, each producing a work of art displayed inside the default $100\times 100$ window. You must provide a title for each one (cop-out titles like "composition 1" or "untitled" are not acceptable). For each one you may use **at most ten statements** in Processing (not including the lines for the <code>setup</code> function). These ten statements are limited to the ones described in chapter 1 of Shiffman (a full list appears below). Finally, each statement (except <code>point</code> and <code>colorMode</code>) must appear in at least one of your three drawings</code>.
+
+&nbsp; | &nbsp;
+ :-- | :--
+&nbsp; | &nbsp;
+ line | background
+ point\* | stroke
+ rect | noStroke
+ ellipse | fill
+ rectMode | noFill
+ ellipseMode | colorMode\*
+&nbsp; | &nbsp;
+ 
+ (Commands marked with a \* are not required for this lab.)
+ 
+# Example
+
+It may seem that there is not much you can do with just ten statements and the limits given above. However, here is an approximation to Mondrian's work, shown above. Try it! (It is not exactly identical; there is no blue, for instance.)
+
+<pre>
+void setup() {
+  background(0);
+  rect(0,0,25,27);
+  rect(0,32,25,40);
+  rect(30,77,55,23);
+  rect(90,77,10,8);
+  fill(255,0,0);
+  rect(30,0,70,72);
+  fill(255,255,0);
+  rect(0,77,25,23);
+  rect(90,90,10,10);
+}
+</pre>
+
+![10 Statement Mondrian](mondrian.jpg)
+
+Note that this program uses only three of the required functions; the other two programs must use the remaining ones (<code>rectMode</code>, <code>line</code>, <code>noStroke</code>, etc.).
+
+# More Examples
+Each of the following art works was created using only ten Processing statements drawn from the list above.
+
+![10 Statement Mondrian](example-1.jpg)
+"Tangential"
+
+<br/>
+<br/>
+
+![10 Statement Mondrian](example-2.jpg)
+"World Novel"
+
+<br/>
+<br/>
+
+![10 Statement Mondrian](example-3.jpg)
+"Nonconformist"
+
+<br/>
+<br/>
+
+
+# Submission
+* At the top of each of your programs add two lines, each beginning with <code>//</code>. The first should contain your name, the second should contain the title of the composition. For example:
+
+<pre>
+// Leonardo D. Finchy
+// "The Moaning Leaser"
+void setup() {
+... (etc.) ...
+}
+
+void draw() {
+... (etc.) ...
+}
+</pre>
+
+Text beginning with the characters <code>//</code> is called a *comment*. It does not count as a Processing statement. You may add as many comments as you wish.
+
+* In each program, be sure your statements line up neatly---use the "Edit/Auto Format" command to achieve this.
+
+* Save each of your programs under a different name using the "File/Save" command. (File organization and the file system will be discussed in class.) 
+
+* Next, for each of your programs go to the "Tools" menu and select the "Archive Sketch" menu item. This will create a file with the name you gave the original file, followed by the date, followed by the letters <code>.zip</code>.
+
+* On the Sakai web site for the course, locate your drop box. Create a new folder in your drop box named "Lab1". In this new folder, upload each of the three "<code>.zip</code>" files you created.
+
+# Assessment
+This exercise is related to our first learning objective for CMPSC 195:
+
+{% callout blue %}
+Understand a computational approach to describing actions.
+{% endcallout %}
+
+A portion of your grade will be for originality; don't simply make minor changes to the examples shown above and in class. Try something new!
+
+A portion of your grade will be determined by whether or not you meet the requirements:
+
+* no more than ten statements per sketch (not including comments
+and <code>void setup() \{...\}</code>
+* all functions used (except maybe point and colorMode); no other
+functions used
+* commented, aligned, titled (no cop-out titles!)
+* properly submitted (Sakai subfolder, zip files)
