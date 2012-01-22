@@ -21,7 +21,8 @@ Estimated value: $3,000,000 (based on [comparable works](http://bit.ly/waEZGJ))
 
 # 10-Line Works of Art
 
-Create three Processing programs, each producing a work of art displayed inside the default $100\times 100$ window. You must provide a title for each one (cop-out titles like "composition 1" or "untitled" are not acceptable). For each one you may use **at most ten statements** in Processing (not including the lines for the <code>setup</code> function). These ten statements are limited to the ones described in chapter 1 of Shiffman (a full list appears below). Finally, each statement (except <code>point</code> and <code>colorMode</code>) must appear in at least one of your three drawings</code>.
+Create three Processing programs, each producing a work of art displayed
+inside the default 100 x 100 window. You must provide a title for each one (cop-out titles like "composition 1" or "untitled" are not acceptable). For each one you may use **at most ten statements** in Processing (not including the lines for the <code>setup</code> function). These ten statements are limited to the ones described in chapter 1 of Shiffman (a full list appears below). Finally, each statement (except <code>point</code> and <code>colorMode</code>) must appear in at least one of your three drawings</code>.
 
 &nbsp; | &nbsp;
  :-- | :--
@@ -69,7 +70,7 @@ Each of the following art works was created using only ten Processing statements
 <br/>
 
 ![10 Statement Mondrian](example-2.jpg)
-"World Novel"
+"World Navel"
 
 <br/>
 <br/>
