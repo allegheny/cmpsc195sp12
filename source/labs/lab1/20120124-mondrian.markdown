@@ -124,3 +124,7 @@ and <code>void setup() \{...\}</code>
 functions used
 * commented, aligned, titled (no cop-out titles!)
 * properly submitted (Sakai subfolder, zip files)
+
+# Acks
+
+Lab originally written by Bob Roos, made available under a CC-BY-SA license.

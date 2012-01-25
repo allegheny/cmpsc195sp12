@@ -21,6 +21,8 @@ Getting into Processing.
 * Watch (and listen to) the first minute of [this rally driving team](http://www.youtube.com/watch?v=vCSAa5nOU64).
 * Watch the [pair programming video](http://www.youtube.com/watch?v=rG_U12uqRhE). 
 
+**UPDATE**: If you want a short bit of rally driving in English, you might check out [this video instead](http://www.youtube.com/watch?v=LihYqP_Fs00). Again, you don't need more than a minute of the video to get the point.
+
 # The Plan
 
 
@@ -52,6 +54,10 @@ The lab book is an important part of your work in this class.
 * When you have an image or other output that you think is worth noting, save it by printing it into your notebook.
 
 We'll take a few minutes to talk about lab books in this class and go through it with your partner.
+
+# BONUS: GET LOGGED IN
+
+Before we can do anything in class, we need to get [logged in](../labs/logging-in/2012-sp-logging-in.html). And, while we're at it, you should change your password.
 
 # Hands On #1
 Break into pairs and dive into our first lab.

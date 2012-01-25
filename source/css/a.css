@@ -48,7 +48,8 @@ H1, H3, H4, H5, H6 {
 	color : #666;
 	font-weight : bold;
 	font-family: 'Rock Salt', cursive;
-	margin : 0 0 10px;
+	/* top right bottom left */
+	margin : 10px 0px 5px 0px;
 	padding : 0 0 0 25px;
 	}
 	H1 {
@@ -120,10 +121,12 @@ article {
 	article p {
 		margin : 0 0 20px 0;
 	}
+	
 	article img {
-		float : left;
-		margin : 6px 10px 0 0;
+		float : center;
+		margin : 10px 10px;
 	}
+	
 	
 	.right {
 		float : right;
