@@ -19,6 +19,8 @@ What does it mean to study programming?
 * Read *Studying Programming*, chapters four and five
 * Watch the YouTube Lecture (YTL) [Introducing Variables](http://icanhascheezburger.files.wordpress.com/2011/07/funny-pictures-you-will-take-me-to-jabba-now.jpg)
 
+UPDATE: The [pencasts](../resources/resources.html) took the place of the (possible) YouTube lecture.
+
 # The Plan
 
 &nbsp; |&nbsp; | &nbsp;
