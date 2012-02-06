@@ -2,13 +2,13 @@
 layout: owmx-static
 title: "Variables"
 comments: false
-date: 2012-02-05 16:20
+date: 2012-02-07 16:20
 sharing: true
 footer: true
 callout: true
 pithy: "Maybe this, maybe that..."
 categories: [static, calendar]
-week: 04
+week: "4"
 day: 1
 ---
 
@@ -23,13 +23,13 @@ If you ask questions *before* class, I can create pencasts/screencasts to answer
 
 # The Plan
 
-&nbsp; |&nbsp; | &nbsp;
- :-- | :--: | :--
-Quiz | Prep Quiz | Let's see what stuck.
-Q & A | Questions | What needs further exploration?
-Reinforce | Cheat Sheet | Make a cheat sheet regarding variables and types.
-Recreate | Variable Sketches | Recreate several images using variables only.
-Recreate | Random Practice | Do something with <code>random()</code> for practice.
+&nbsp; | &nbsp; | &nbsp;
+ :--: | :-- | :--
+10 | Prep Quiz | Let's see what stuck.
+15 | Q & A | What needs further exploration?
+15 | Cheat Sheet | Make a cheat sheet regarding variables and types.
+30 | Variable Sketches | Recreate several images using variables only.
+10 | Random Practice | Do something with <code>random()</code> for practice.
 &nbsp; | &nbsp; | &nbsp;
 
 # Prep Quiz
@@ -76,7 +76,7 @@ int spacing = 300;
 
 would not.
 
-In each case, some starter code has been provided.
+In each case, some starter code has been provided. **Record your solutions in your lab notebook for future reference.**
 
 
 ## Four Circles
@@ -169,4 +169,53 @@ Below is some starter code. Use it to draw a collection of random rectangles, el
 ![Random Rectangles](http://rockalypse.org/courses/snaps/sketch_feb05a-20120205-165019.jpg)
 
 # Modulo
-Our last piece of practice has to do with the **modulus** operator. 
+Our last piece of practice has to do with the **modulus** operator. Read and talk through this section with your partner, and then do some experimentation in Processing with this new idea.
+
+What we're going to be doing is sometimes referred to ask "clock arithmetic." Lets look at a clock---you know, the kind with hands and stuff.
+
+<center>
+<img src="http://farm5.staticflickr.com/4045/4699683446_7abc1c3347_d.jpg" />
+<br/>
+<em>CC BY-SA by <a href="http://www.flickr.com/photos/happenchance/4699683446/">happenchance</a>.</em>
+</center>
+
+Looking at the hour hand, we can count around the clock as follows:
+
+1, 2, 3, 4, 5...
+
+and so on. However, when we hit 12, something interesting happens: we reset.
+
+10, 11, 12, 1, 2 ...
+
+In Processing, we would say that the hour hand increments from one hour to the next this way:
+
+<code>hourHand = hourHand + 1;</code>
+
+However, that would keep counting when we hit 12: 13, 14, 15, and so on.
+
+So, we need to say "the hour hand goes up by one every hour, but it resets to zero at 12."
+
+<code>hourHand = (hourHand + 1) % 12;</code>
+
+The "%" means "modulo". Another way to think of it is **remainder**. That is, divide by the number 12, and only pay attention to the remainder.
+
+hourHand | hourHand + 1 | remainder (% 12)
+1 | 2 | 2
+2 | 3 | 3
+3 | 4 | 4
+4 | 5 | 5
+5 | 6 | 6
+6 | 7 | 7
+7 | 8 | 8
+8 | 9 | 9
+9 | 10 | 10
+10 | 11 | 11
+11 | 12 | 0
+0 | 1 | 1
+
+See what happens when we hit 12? The remainder of 12 divided by 12 is zero. The "modulo" operator (the % sign) does a division and returns the remainder.
+
+Or, if you prefer: it does clock arithmetic.
+
+# Modulo Experimentation
+

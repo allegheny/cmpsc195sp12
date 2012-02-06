@@ -32,7 +32,17 @@ We intend to cover material from the first twelve chapters of [Learning Processi
 <td align="left">  </td>
 <td align="left">  </td>
 </tr>
-{% for post in site.static['calendar'] %}
+
+{% assign sortedposts = site.static['calendar'] %}
+
+{% debug %}
+
+This is {{ page.title }}.
+
+{% enddebug %}
+
+
+{% for post in sortedposts %}
 	<tr>
 	<td align="center"> {{ post.week }} </td>
 	<td align="left"> 

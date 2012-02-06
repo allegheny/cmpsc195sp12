@@ -97,9 +97,13 @@ module Jekyll
     end
     
     def <=>(other)
-      cmp = self.date <=> other.date
+      cmp = other.date <=> self.date
       if 0 == cmp
-        cmp = self.slug <=> other.slug
+        if self.data.has_key?('title')
+          cmp = self.title <=> other.title
+        else
+          cmp = 0
+        end
       end
       return cmp
     end

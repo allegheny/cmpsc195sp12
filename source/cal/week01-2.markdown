@@ -2,7 +2,7 @@
 layout: owmx-static
 title: Building Community
 comments: false
-date: 2012-01-04 03:20
+date: 2012-01-19 03:20
 sharing: true
 footer: true
 callout: true
