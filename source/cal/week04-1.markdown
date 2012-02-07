@@ -29,7 +29,8 @@ If you ask questions *before* class, I can create pencasts/screencasts to answer
 15 | Q & A | What needs further exploration?
 15 | Cheat Sheet | Make a cheat sheet regarding variables and types.
 30 | Variable Sketches | Recreate several images using variables only.
-10 | Random Practice | Do something with <code>random()</code> for practice.
+15 | Random Practice | Do something with <code>random()</code> for practice.
+95 | Modulo | Explain how modulo works.
 &nbsp; | &nbsp; | &nbsp;
 
 # Prep Quiz
@@ -199,6 +200,9 @@ So, we need to say "the hour hand goes up by one every hour, but it resets to ze
 
 The "%" means "modulo". Another way to think of it is **remainder**. That is, divide by the number 12, and only pay attention to the remainder.
 
+
+&nbsp; | &nbsp; | &nbsp;
+ :--: | :--: | :--:
 hourHand | hourHand + 1 | remainder (% 12)
 1 | 2 | 2
 2 | 3 | 3
@@ -213,9 +217,55 @@ hourHand | hourHand + 1 | remainder (% 12)
 11 | 12 | 0
 0 | 1 | 1
 
+
 See what happens when we hit 12? The remainder of 12 divided by 12 is zero. The "modulo" operator (the % sign) does a division and returns the remainder.
 
 Or, if you prefer: it does clock arithmetic.
 
-# Modulo Experimentation
+# Modulo Explanation
+
+This is a **creative learning exercise**. That means you have to 1) create something that 2) reflects your learning.
+
+1. **Create a sketch** in Processing that makes use of modulo arithmetic. Experiment and explore the use of the % operator in a variety of places, and see what you come up with. *Try to do something creative and engaging with your code for this exercise*.
+1. **Explain what you have done** in a Google document. Your document should:
+ 	1. Start with a **summary** that (in one or two sentences) explains what you have done, 
+	1. Contain the **code** for your explanation,
+	1. Include one or two **screen shots** of your sketch in execution,
+	1. Be followed by an **explanation** of what your code does and why.
+1. **Export** your explanation from Google Docs as a **PDF**.
+1. **Upload** your explanation in PDF form to Sakai according to the directions below.
+
+# Submission
+* At the top of each of your programs add two lines, each beginning with <code>//</code>. The first should contain your name and, if you worked as a pair, your partner's name:
+
+<pre>
+// Leonardo D. Finchy
+// Ian P. Freely
+void setup() {
+... (etc.) ...
+}
+
+void draw() {
+... (etc.) ...
+}
+</pre>
+
+* In each program, be sure your statements line up neatly---use the "Edit/Auto Format" command to achieve this.
+
+* Save each of your programs under a different name using the "File/Save" command. We recommend a name that looks something like this: <code>lab3-mjadud-rroos.pdf</code>. Notice how the names of both partners end up in the filename.
+
+* Next, for each of your programs go to the "Tools" menu and select the "Archive Sketch" menu item. This will create a file with the name you gave the original file, followed by the date, followed by the letters <code>.zip</code>. Each zipfile should start with <code>lab3-</code>.
+
+* On the Sakai web site for the course, locate your drop box. Create a new folder in your drop box named "Lab3". In this new folder, upload each of the three "<code>.zip</code>" files you created as well as any other files (eg. your PDF) that are part of the submission.
+
+
+# Assigned
+This was assigned on Tuesday, February 7, 2012.
+
+# Due
+This will be due by Sunday, February 12, 2012 at noon.
+
+# Feedback
+You will receive feedback on this work on Tuesday, February 14, 2012.
+
 
