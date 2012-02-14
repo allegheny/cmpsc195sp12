@@ -25,6 +25,7 @@ Put conditionals into practice.
 20 | Q & A | Question and answer re: conditionals
 30 | Quiz | A quiz on conditionals.
 2 | Pong History | A brief history of Pong and video games.
+20 | Optional | Practice before you start.
 30 | Pong Planning | Plan what goes into pong.
 45 | Pong Implementation | Write the code for Pong.
 &nbsp; | &nbsp; | &nbsp;
@@ -68,6 +69,12 @@ In fact, most people don't realize that Microsoft Windows was developed by Bill 
 **Bill Gates** I don't know. I think I'll start with Pong, make the ball something people click around with, and I'll use the paddle at the bottom of the screen as a place for other paddles that tell people stuff.
 
 **Friend** That sounds awesome!
+
+# Getting Started
+
+I **highly recommend** that you are comfortable with exercises 5-6 and 5-9. They are both related to the game of Pong. 
+
+By "comfortable with," I am recommending that you take the type to type them in, run them, and discuss them with your programming partner if you think that it will help you cement ideas about how we move a ball around the screen. Example 5-6 also deals with hitting the edge of the screen, which is fairly relevant as well.
 
 # Pong Planning
 
@@ -134,6 +141,81 @@ There's a small trick to getting the ball to go up or down; for now, it is enoug
 You've thought through all of the critical cases in your program. Now is the time to create your very first video game. 
 
 <pre>
+	// Variables for the ball
+	float dirX, dirY;
+	
+	// Variables for the paddle
+
+	// Setup
+	// Assign each variable a reasonable value.
+	void setup () {
+	  // Play area
+	  size (600, 300);
+
+	  // Initialize the ball variables
+	 
+	  // Initialize the paddle variables
+	 
+
+	  // We should start out moving in the positive X 
+	  // direction, but not moving in Y at all.
+	  dirX = 1;
+	  dirY = 0;
+
+	  // These seem reasonable.
+	  ellipseMode(RADIUS);
+	  noStroke();
+	  smooth();
+	}
+
+	void draw () {
+	  // Clear the screen
+
+	  // Draw the paddle
+
+	  // Check if the ball hit the paddle
+	  // If the ball is far enough back to reach the paddle...
+	  // ... AND if the ball is somewhere between the top and
+	  //     bottom of the paddle...
+	  // ... THEN change the direction of the ball.
+	  if ( ) {
+	    if ( ) {
+	    
+	      // Change the Y direction (if the paddle is moving)
+	      if ( ) {
+	        
+	      }
+	    }
+	  }
+
+	  // Check if the ball hit the back wall
+	  // Change the X direction accordingly if it did
+	  if ( ) {
+	    
+	  }
+
+	  // Check to see if the ball hit the top of the screen
+	  // If so, flip the Y direction.
+	  if ( ) {
+	   
+	  }
+
+	  // Check to see if the ball hit the bottom of the screen
+	  // If so, flip the Y direction.
+	  if ( ) {
+	    
+	  }
+
+	  // Move the ball
+	 
+
+	  // Draw the ball
+	 
+	}
+</pre>
+
+<!--
+<pre>
 // Variables for the ball
 float dirX, dirY;
 
@@ -188,6 +270,19 @@ void draw () {
 
 }
 </pre>
+-->
+
+# CHALLENGE
+
+If you're looking for a little bit of extension, I'd like to encourage you to try the following:
+
+1. Add a second paddle. This way, you have one at either end of the "play area."
+1. Add a <code>keyPressed()</code> method that listens for key presses. Use the keys 3 and 6 to move the right-hand paddle down and up, and use the keys A and Z to do the same with the left-hand paddle.
+1. Add two variables, <code>leftScore</code> and <code>rightScore</code>.
+1. Add code to detect when the ball hits the left or right edge of the screen, and update the scores appropriately.
+1. Every time the score changes, use <code>println()</code> to print the current score.
+
+At this point, you have a head-to-head version of the game of Pong!
 
 # Assessment
 The Pong game will be assessed as follows:
