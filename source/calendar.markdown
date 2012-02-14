@@ -35,11 +35,6 @@ We intend to cover material from the first twelve chapters of [Learning Processi
 
 {% assign sortedposts = site.static['calendar'] %}
 
-{% debug %}
-
-This is {{ page.title }}.
-
-{% enddebug %}
 
 
 {% for post in sortedposts %}
