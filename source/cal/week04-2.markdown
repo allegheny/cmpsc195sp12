@@ -1,6 +1,6 @@
 ---
 layout: owmx-static
-title: Conditionals continued
+title: Logical Thinking (Conditionals Prep)
 comments: false
 date: 2012-02-09 03:20
 sharing: true
