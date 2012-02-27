@@ -1,12 +1,12 @@
 ---
 layout: owmx-static
-title: Loops and loops and loops...
+title: Practice Exam
 comments: false
 date: 2012-02-16 03:20
 sharing: true
 footer: true
 callout: true
-pithy: ... and lather, and rinse...
+pithy: Practice makes Perfect
 categories: [static, calendar]
 week: 05
 day: 2

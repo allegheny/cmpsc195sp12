@@ -27,12 +27,19 @@ It is unreasonable to expect responses in less than a business day, but we'll se
  -- | :--
 **Email** | mjadud@allegheny.edu 
 **Phone** | +1 (925)-238-3692
+**Office Hours** | Monday, 1:30 to 5:30PM
+ | Tuesday and Wednesday, 8PM onwards (by appointment)
+
+[Book Matt's Monday hours online](https://www.google.com/calendar/selfsched?sstoken=UVBFLTBFMlcxRzRwfGRlZmF1bHR8NDVhOWJlOTk1YmI0ZGU4YTA3NzIxMmIxNWY0OGZiODY); email for Tuesday and Wednesday.
 
 &nbsp; | &nbsp;
 -- | :--
 **Email** | rroos@allegheny.edu
 **Phone** | +1 (814)-332-2883
-
+** Office Hours** | Monday, 1:30 to 3:30PM
+ | Tuesday, 9 to 11AM
+ | Thursday, 9:30 to 11AM
+ | Friday 1:30 to 2:30PM
 
 {% callout hotpink %}
 Matt pays for SMS messages. If you send a text, you will be charged one US quarter.
