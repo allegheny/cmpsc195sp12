@@ -41,9 +41,18 @@ We expect questions; you expect answers. This part of our relationship seems to 
 # Practice
 We'll start with a few warmup questions. Develop code that produces the images below. Note that in each case, some starter / template code has been provided---you can copy/paste that code (if you want) to help get you started.
 
-## Circles
+In every case, we recommend that you **talk through the solution with your programming partner first**. Get out the graph paper (or just plain paper) and think about 
 
-We'll start
+1. What shapes you can draw, in
+2. What colors you might use, with
+3. What stroke (color, weight, etc.), and
+4. Where you might position things
+
+to produce the image that you see. These aren't meant to be hugely difficult, but they do involve critical thinking and problem solving that connects *what you see* with *what you code*. You might recognize this as a theme---the midterm asked you to read a lot of code and make sense of it, quickly. Drawing images from code is hard, but it's part of what we do as computer scientists: **we look at the world, and we represent it as a program**.
+
+Do well. Ask questions.
+
+## Circles
 
 Lets start by drawing some circles that follow the mouse.
 	
@@ -101,6 +110,7 @@ If you make the increment and decrement larger (but equal), you'll see more of h
 
 ![Matt's Doodles Expanded](http://rockalypse.org/courses/snaps/matts-doodles2-20120227-230141.png)
 
+**Bonus** You could add a line or two to this one that would change the increment for x and y based on the mouse position. This would probably look really cool.
 
 ## Purple Waves
 
