@@ -13,74 +13,23 @@ day: 2
 ---
 
 # Big Picture
+We'll introduce looping through some active... activities.
 
 # "To Do"
+No particular prep; you just finished the midterm.
 
 # The Plan
 
 &nbsp; |&nbsp; | &nbsp;
  :-- | :--: | :--
+Activity | Time | Description
+Do Stuff | 65 | Do stuff.
 &nbsp; | &nbsp; | &nbsp;
 
+# Do Stuff
 
-// http://rockalypse.org/courses/snaps/soft-circle-20120227-101132.png
-void setup () {
-   background(255);
-   size(500,500);
-   noStroke();
-}
+*This was written after-the-fact...*
 
-void draw () {
-  int diameter = width;
-  while (diameter > 0) {
-    fill(diameter/2);
-    ellipse (width/2, height/2, diameter, diameter);
-    diameter = diameter - 1;
-  }
-}
+We did some activities surrounding sorting. I don't think it was the best way to introduce looping, and it's something to think about for future iterations. It wasn't bad... the theory was that you (intuitively) understand sorting, and it involves iteration. But, it seems like we could come up with something better as a topic introduction.
 
-// http://rockalypse.org/courses/snaps/sketch_feb27a-20120227-101634.png
-void setup () {
-   background(255);
-   size(500,500);
-}
-
-void draw () {
-  int startX = 0;
-  int endY = height;
-  
-  while (startX < width) {
-    line (startX, 0, 0, endY);
-    startX = startX + 1;
-    endY = endY - 1;
-
-  }
-}
-
-// http://rockalypse.org/courses/snaps/sketch_feb27a-20120227-102242.png
-void setup () {
-  background(255);
-  size(500, 500);
-}
-
-void draw () {
-  int x,y;
-  int dia = 0;
-  int start = 0 - width;
-
-  while (start < width) {
-    x = start;
-    y = 0;
-    println ("Start: " + start);
-    while (x < width) {
-      x = x + 10;
-      y = y + 10;
-      dia = x % 50;
-
-      fill (x % 255, y % 255, 0);
-      ellipse (x, y, dia, dia);
-    }
-    
-    start = start + 30;
-  }
-}
+We'll file it under "things that make you go *hmm*."
